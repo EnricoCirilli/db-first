@@ -4,12 +4,12 @@ Nella repo dovete consegnare un file con tutti i campi della tabella, tipo di da
 |Campo|Tipo di dato| Attributi |
 |:---:|:---:|:---:|
 |CodAuto|integer| Chiave primaria|
-|Marca|Varchar(255)| |
-|Modello|Varchar(255)| |
-|Colore|Varchar(255)|  | 
-|Prezzo|Float||
-|Sconto|Float||
-|Iva|Float||
-|KmPercorsi|Integer||
-|AnnoImm|Integer||
-|CodProprietario|Integer | Chiave esterna - Proprietario|
+|Marca| not null - Varchar(255)| |
+|Modello|not null -Varchar(255)| |
+|Colore| not null -Varchar(255)|  | 
+|Prezzo| not null - Float||
+|Sconto| not null - Float||
+|Iva| not null - Float||
+|KmPercorsi|not null - Integer||
+|AnnoImm| not null - Integer||
+|CodProprietario|null - Integer | Chiave esterna - Proprietario|
